@@ -1,7 +1,11 @@
 # Recursos powershell
 
 ## Estructura del repositorio
+# Recursos powershell
 
+## Estructura del repositorio
+
+```
 powershell
 |   LICENSE
 |   readme.md			              <- Fichero que describe los recusros.
@@ -14,3 +18,4 @@ powershell
 |       
 \---Set-WOL-Windows             <- Configura WOL
         Set-WOL-Windows.ps1
+```
