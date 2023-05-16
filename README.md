@@ -1,6 +1,7 @@
 # Recursos powershell
 
 ## Estructura del repositorio
+
 powershell
 |   LICENSE
 |   readme.md			              <- Fichero que describe los recusros.
