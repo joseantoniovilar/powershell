@@ -10,7 +10,7 @@ powershell
 +---Auditoria-Certificados
 |       Auditoria_Certificados.ps1            <- Audita los cerificados instalados en un equipo
 |    
-+---Borrar-perfiles-WIFI                      <- Borra los peefiles wIFI
++---Borrar-perfiles-WIFI                      <- Borra los perfiles WIFI
 |       borrar-perfiles-wifi.ps1
 |       
 +---Set-NombrePC                              <- Pone nombre al computador utilizando el numero de serie del equipo
