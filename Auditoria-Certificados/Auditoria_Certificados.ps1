@@ -45,4 +45,4 @@ ForEach ($Object in $Certificados) {
 
 $CSVContenido | Export-CSV -Path ($RutalFichero + $env:USERNAME + "-" + $env:COMPUTERNAME + ".csv") -NoTypeInformation -Delimiter ";" -Force
 
-Remove-PSDrive -Name $Unidad
+Remove-PSDrive -Name $LetraUnidadDisco
