@@ -6,16 +6,17 @@
 powershell
 |   LICENSE
 |   readme.md			              <- Fichero que describe los recusros.  
-|   
+|
 +---Auditoria-Certificados
-|       Auditoria_Certificados.ps1            <- Audita los cerifcados instalados en un equipo
-+---Borrar-perfiles-WIFI                <- Borra los peefiles wIFI
+|       Auditoria_Certificados.ps1            <- Audita los cerificados instalados en un equipo
+|    
++---Borrar-perfiles-WIFI                      <- Borra los peefiles wIFI
 |       borrar-perfiles-wifi.ps1
 |       
-+---Set-NombrePC                <- Pone nombre al computador utilizando el numero de serie del equipo
++---Set-NombrePC                              <- Pone nombre al computador utilizando el numero de serie del equipo
 |       set-nombrepc.ps1
 |       
-\---Set-WOL-Windows             <- Configura WOL
+\---Set-WOL-Windows                           <- Configura WOL
         Set-WOL-Windows.ps1
 ```
 
