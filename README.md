@@ -1,9 +1,6 @@
 # Recursos powershell
 
-## Estructura del repositorio
-# Recursos powershell
-
-## Estructura del repositorio
+### Estructura del repositorio
 
 ```
 powershell
@@ -19,3 +16,11 @@ powershell
 \---Set-WOL-Windows             <- Configura WOL
         Set-WOL-Windows.ps1
 ```
+
+## Authors
+
+[Jose Antonio Vilar](joseantonio.vilar@upm.es)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
