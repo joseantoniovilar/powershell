@@ -5,7 +5,7 @@
 ```
 powershell
 |   LICENSE
-|   readme.md			              <- Fichero que describe los recusros.  
+|   readme.md			              <- Fichero que describe los recusrsos.  
 |
 +---Auditoria-Certificados
 |       Auditoria_Certificados.ps1            <- Audita los cerificados instalados en un equipo
