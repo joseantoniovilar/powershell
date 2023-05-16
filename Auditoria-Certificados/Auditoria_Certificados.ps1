@@ -4,7 +4,7 @@ Audita los ceritficados del equipo
 
 .DESCRIPTION
 
-Audita los certficados del equipo y lo almacena en una unidad de red
+Audita los certfiicados del equipo y lo almacena en una unidad de red
 
 .NOTES
 Autor joseantonio.vilar@upm.es 10-09-2018
