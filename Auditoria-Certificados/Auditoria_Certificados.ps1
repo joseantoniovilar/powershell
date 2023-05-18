@@ -13,7 +13,7 @@ Autor joseantonio.vilar@upm.es 10-09-2018
 
 $LetraUnidadDisco = "Unidad"
 $RutaFichero = "\\Ruta compartida"
-$CredencialesDisco = (New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "138.4.241.43\auditoria",(ConvertTo-SecureString "*Aud123-" -AsPlainText -Force))
+$CredencialesDisco = (New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "$RutaFichero",(ConvertTo-SecureString "*Aud123-" -AsPlainText -Force))
 
 New-PSDrive -Name $LetraUnidadDisco -PSProvider FileSystem -Root $RutaFichero -Persist -Credential $CredencialesDisco
 
