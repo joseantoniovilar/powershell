@@ -16,8 +16,11 @@ powershell
 +---Set-NombrePC                              <- Pone nombre al computador utilizando el numero de serie del equipo
 |       set-nombrepc.ps1
 |       
-\---Set-WOL-Windows                           <- Configura WOL
++---Set-WOL-Windows                           <- Configura WOL
         Set-WOL-Windows.ps1
+|
+\---winusers                                  <- Muestra los usuarios locales y grupos locales que pertenece
+        winusers.ps1
 ```
 
 ## Authors
