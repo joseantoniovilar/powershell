@@ -22,7 +22,7 @@ powershell
 +---Conexion-Webdav                           <- Permite a un usuario conectrse a recurso webdav
 |       conexion-webdav.ps1
 |
-\---winusers                                  <- Muestra los usuarios locales y grupos locales que pertenece
+\---winusers                                  <- Muestra los usuarios locales y grupos a los que pertenece
         winusers.ps1
 ```
 
