@@ -17,7 +17,7 @@ powershell
 |       set-nombrepc.ps1
 |       
 +---Set-WOL-Windows                           <- Configura WOL
-        Set-WOL-Windows.ps1
+|       Set-WOL-Windows.ps1
 |
 \---winusers                                  <- Muestra los usuarios locales y grupos locales que pertenece
         winusers.ps1
