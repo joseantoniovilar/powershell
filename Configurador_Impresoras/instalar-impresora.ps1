@@ -17,7 +17,6 @@
    Requiere Windows PowerShell 6.1 or later
    Autor: joseantonio.vilar@upm.es
    Fecha: 05/07/2023
-
 #>
 
 #[CmdletBinding()]
@@ -63,11 +62,12 @@ param (
 
 #utiliza los datos almacenados en el csv
 Function Set-Impresora {
-    Param (
+Param (
         [string]$modeloImpresora,
         [string]$nombreImpresora,
         [string]$ipImpresora, 
-        [string]$puertoImpresora = 9100)
+        [string]$puertoImpresora = 9100
+)
 
         if ($null -eq (Get-Printer -name $nombreImpresora -ErrorAction SilentlyContinue)) {
             if ($null -eq (Get-PrinterPort -name $puertoImpresora -ErrorAction SilentlyContinue )) {
@@ -88,7 +88,7 @@ Function Set-Impresora {
                 write-host $_.Exception.Massage -BackgroundColor DarkRed
             }
         } else {
-            Write-Warning "La impresora está instalada"
+            Write-host "La impresora $modeloImpresora y $nombreImpresora ya está instalada" -BackgroundColor DarkGreen 
         }
 }
 
