@@ -16,4 +16,4 @@ PS> ./instalar-impresora.ps1 -filecsv "ruta del csv con los datos de las impreso
 Author: Jose Antonio Vilar | License: MIT
 
 ## Related Links
-(https://github.com/joseantoniovilar/powershell/edit/main/Configurador_Impresoras)https://github.com/joseantoniovilar/powershell/edit/main/Configurador_Impresoras
+https://github.com/joseantoniovilar/powershell/edit/main/Configurador_Impresoras
