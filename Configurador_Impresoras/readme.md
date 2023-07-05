@@ -1,4 +1,5 @@
-El script instlar-impreosra.ps1
+El script instalar-impreosra.ps1
+
 Este PowerShell script lee desde un fichero csv los datos necesarios para descarga (el driver en formato zip) desde una url. Instalar el 
 driver y configura la impresora con la direccion IP y Puerto de impresion en el equipos. Permite hacer seleccion multiples de impresoras
 Las estructura del csv
