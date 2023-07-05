@@ -16,7 +16,7 @@ powershell
 +---Conexion-Webdav                           <- Permite a un usuario conectrse a recurso webdav
 |       conexion-webdav.ps1      
 |
-+---Configurador_Impresoras                    <- Permite instalar el drives y configurar la impresora desde un csv
++---Configurador_Impresoras                    <- Permite instalar el driver y configurar la impresora desde un csv
 |       innstalar-impresora.ps1
 |
 +---Set-NombrePC                              <- Pone nombre al computador utilizando el numero de serie del equipo
