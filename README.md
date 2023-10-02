@@ -24,7 +24,10 @@ powershell
 |       
 +---Set-WOL-Windows                           <- Configura WOL
 |       Set-WOL-Windows.ps1
-|
+|      
++---Crear-TAP                                 <- Genera Pases de Acceso Temporal (TAP) desde un csv para AzureAD
+|       Set-WOL-Windows.ps1
+| 
 \---winusers                                  <- Muestra los usuarios locales y grupos a los que pertenece
         winusers.ps1
 ```
