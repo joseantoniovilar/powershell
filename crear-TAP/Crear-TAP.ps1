@@ -5,16 +5,16 @@
 .DESCRIPTION
 	Permite generar pases temporales para que un usuario pueda autenticarse en AzureAD.
 	También, permite recuperar su cuenta si ha perdido 2FA. 
-	Lee un ficehro csv como argumento con el siguiente formato: upn,"01/01/2023 12:00:00" para generar TAP masivos.
-	upn es el email principal del usuario y la fecha con hora que el TAP empezara a estar activo.
+	Lee un ficehro csv como argumento con el siguiente formato: email usuario,"01/01/2023 12:00:00" para generar TAP masivos.
+	El email principal del usuario y la fecha con hora que el TAP empezará a estar activo.
 
 .EXAMPLE
-	.\Crea-TAP.ps1 -infilecsv "PATH" -outfilecsv "PATH" -pass "SECRET"
+	.\Crea-TAP.ps1 -infilecsv "nombre csv con los datos" -outfilecsv "nombre del csv para los tap" 
 
 .NOTES
    Requiere Windows PowerShell 6.1 or later
    Autor: joseantonio.vilar@upm.es
-   Fecha: 02/10/2023
+   Fecha: 20/10/2023
 #>
 
 param
