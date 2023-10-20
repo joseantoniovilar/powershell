@@ -22,9 +22,7 @@ param
     [Parameter(Mandatory=$true, HelpMessage="Falta fichero csv que contiene los upn y fecha para generar los pases.")]
     [string]$infilecsv, 
 	[Parameter(Mandatory=$true, HelpMessage="Falta fichero csv para almacenar los TAP generados.")]
-	[string]$outfilecsv,
-	[Parameter(Mandatory=$true, HelpMessage="Falta la clave para acceder a la aplicación.")]
-	[string]$pass 
+	[string]$outfilecsv
 )
 
 #Instala MS Graph si no esta instalado 
