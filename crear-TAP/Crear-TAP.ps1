@@ -82,7 +82,7 @@ finally
 			TemporaryAccessPass =$tap.TemporaryAccessPass
 			StartDateTime = $tap.StartDateTime
 			LifetimeInMinutes = $tap.LifetimeInMinutes
-		} | Export-Csv -Path $outfilecsv -Append -Force -UseQuotes Never
+		} | Export-Csv -Path $outfilecsv -Append -Force -NoTypeInformation
 	}
 
 	$contTAP=(Get-Content $outfilecsv).Length
