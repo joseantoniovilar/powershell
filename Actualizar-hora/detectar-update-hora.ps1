@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Detecta si hay que actualizar la hora del equipo. Servidores hora.noa.es y tic.upm.es
+	Detecta si hay que actualizar la hora del equipo. Servidores hora.noa.es o otro server
 
 .DESCRIPTION
 	
