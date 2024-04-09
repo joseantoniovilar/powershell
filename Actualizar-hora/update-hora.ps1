@@ -24,7 +24,7 @@ if (Test-Connection -ComputerName "hora.roa.es" -Quiet)
 { 
     $ServidorTiempo = "hora.roa.es" 
 } else {
-    $ServidorTiempo = "tic.upm.es" 
+    $ServidorTiempo = "otro.server.ntp" 
 }
 
 # Sincronizar el reloj 
