@@ -14,7 +14,7 @@
    Fecha: 08/ABR/2024
 #>
 
-Start-Transcript -Path "$env:ProgramData\Microsoft\IntuneManagementExtension\Logs\$(get-date -Format "yyyyMMdd-HHmmss")_update-hora.log" -Force
+
 
 # Detener el servicio
 Stop-Service w32time
@@ -37,4 +37,4 @@ Restart-Service w32time
 w32tm /config /update
 w32tm /resync /rediscover:1 
 
-Stop-Transcript
+
