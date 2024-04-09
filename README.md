@@ -5,8 +5,12 @@
 ```
 powershell
 |   LICENSE
-|   readme.md			              <- Fichero que describe los recusrsos.  
+|   readme.md			              <- Fichero que describe los recusrsos.
 |
++---Actualiza-hora
+|       detectar-update-hora.ps1            <- Detecta si el equipo no tiene configurado la hora
+|       update-hora.ps1                     <- Configura la hora con un servidor ntp
+|    
 +---Auditoria-Certificados
 |       Auditoria_Certificados.ps1            <- Audita los cerificados instalados en un equipo
 |    
