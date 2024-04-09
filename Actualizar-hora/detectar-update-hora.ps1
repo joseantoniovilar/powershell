@@ -22,7 +22,7 @@ if (Test-Connection -ComputerName "hora.roa.es" -Quiet)
 { 
     $ServidorTiempo = "hora.roa.es" 
 } else {
-    $ServidorTiempo = "tic.upm.es" 
+    $ServidorTiempo = "otro.server.ntp" 
 }
 
 # Obtiene la hora actual del servidor de tiempo
