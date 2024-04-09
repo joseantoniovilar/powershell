@@ -15,8 +15,6 @@
 #>
 
 
-Start-Transcript -Path "$env:ProgramData\Microsoft\IntuneManagementExtension\Logs\$(get-date -Format "yyyyMMdd-HHmmss")_detectar_update-hora.log" -Force
-
 #Configurar el servidor de la hora.
 if (Test-Connection -ComputerName "hora.roa.es" -Quiet) 
 { 
@@ -43,12 +41,10 @@ $MargenError = 60
 # Verifica si la diferencia de tiempo está dentro del margen de error permitido
 if ($Diferencia.TotalSeconds -le $MargenError -and $Diferencia.TotalSeconds -ge (-$MargenError)) {
     Write-Host "La hora del sistema está sincronizada correctamente con el servidor de tiempo $ServidorTiempo."
-    Stop-Transcript
     Exit 0
 } else {
     Write-Host "La hora del sistema no está sincronizada correctamente con el servidor de tiempo $ServidorTiempo."
     Write-Host "Diferencia de tiempo: $($Diferencia.TotalSeconds) segundos."
-    Stop-Transcript
     Exit 1
 }
 
