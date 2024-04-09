@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Actualiza la hora del equipo utilizando el servidor de la hora hora.noa.es y tic.upm.es
+	Actualiza la hora del equipo utilizando el servidor de la hora hora.noa.es o otro sever
 
 .DESCRIPTION
 	
